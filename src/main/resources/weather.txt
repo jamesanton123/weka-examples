@@ -5,19 +5,29 @@
 @attribute humidity numeric
 @attribute windy {TRUE, FALSE}
 @attribute play {yes, no}
+@attribute sawABicycle {yes, no}
 
 @data
-sunny,85,85,FALSE,no
-sunny,80,90,TRUE,no
-overcast,83,86,FALSE,yes
-rainy,70,96,FALSE,yes
-rainy,68,80,FALSE,yes
-rainy,65,70,TRUE,no
-overcast,64,65,TRUE,yes
-sunny,72,95,FALSE,no
-sunny,69,70,FALSE,yes
-rainy,75,80,FALSE,yes
-sunny,75,70,TRUE,yes
-overcast,72,90,TRUE,yes
-overcast,81,75,FALSE,yes
-rainy,71,91,TRUE,no
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,85,85,FALSE,no,yes
+sunny,80,90,TRUE,no,yes
+overcast,83,86,FALSE,yes,no
+rainy,70,96,FALSE,yes,no
+rainy,68,80,FALSE,yes,no
+rainy,65,70,TRUE,no,no
+overcast,64,65,TRUE,yes,no
+sunny,72,95,FALSE,no,no
+sunny,69,70,FALSE,yes,yes
+rainy,75,80,FALSE,yes,no
+sunny,75,70,TRUE,yes,yes
+overcast,72,90,TRUE,yes,no
+overcast,81,75,FALSE,yes,yes
+rainy,71,91,TRUE,no,no
